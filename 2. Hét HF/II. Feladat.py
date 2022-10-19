@@ -2,7 +2,6 @@ import math
 
 
 def main():
-    # nem igazán értem mi a feladat, viszont én valahogy így értelmeztem
     print("Pitagorasz-tétel")
     a = int(input("Adja meg a derékszögű háromszög 'a' oldalát: "))
     b = int(input("Adja meg a derékszögű háromszög 'b' oldalát: "))
@@ -11,7 +10,6 @@ def main():
     print("A derékszögű háromszög 3. oldala, azaz a 'c' oldala: {0}.\n".format(c))
 
     #Ez nem igazán jött össze a képlet használatával
-
     #print("Másodfukú egyenlet megoldóképlet")
     #a2 = int(input("Adja meg a másodfukú egyenlet a elemét [(a)x²+(b)x+(c)]: "))
     #b2 = int(input("Adja meg a másodfukú egyenlet b elemét [(a)x²+(b)x+(c)]: "))

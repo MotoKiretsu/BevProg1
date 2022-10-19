@@ -1,6 +1,3 @@
-
-
-
 def main():
     Dec = int(input('Adja meg az adot számot amelyet Binárisra szeretne alakítani: \n'))
     FBinar="" 
@@ -14,7 +11,7 @@ def main():
             FBinar+="1"
             Dec-=1
             Dec=Dec/2
-            
+
     Helper=len(FBinar)-1
 
     while Helper!=0:

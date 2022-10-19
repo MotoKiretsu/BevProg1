@@ -5,16 +5,16 @@ def main():
     eNa=0
     eCl=0
 
-    if Cl == Na/2 :
+    if Cl*2 == Na/2 :
         NaCl = Na
-    elif Cl > Na/2:
+    elif Cl*2 > Na/2:
         NaCl = Na
-        eCl=Cl-Na/2
+        eCl=Cl*2-Na/2
     else:
-        NaCl = Cl*2
-        eNa=Na/2-Cl
+        NaCl = Cl
+        eNa=Na/2-Cl*2
 
-    print("Keletkező konyhasó: {0},\nmaradék nátriumatom: {1},\nmaradék klóratom: {2}".format(NaCl, eNa, eCl))
+    print(f"Keletkező konyhasó: {NaCl},\nmaradék nátriumatom: {eNa},\nmaradék klóratom: {eCl}")
 
 if __name__ == "__main__":
     main()

@@ -17,7 +17,6 @@ def main():
     else:
         print("Ahhoz hogy szerezhetsz jogosítványt még várnod a kell {0} évet.".format(16-EletKor));
     
-    #Hát a Shrek 2 elvileg korhatár nélküli de én 12-t adtam meg 
     if EletKor >= 12:
          print("Megnézheti egyedül a Shrek 2-t.")
     else:
